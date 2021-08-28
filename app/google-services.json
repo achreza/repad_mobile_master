@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "694349062279",
+    "firebase_url": "https://tippedable.firebaseio.com",
+    "project_id": "tippedable",
+    "storage_bucket": "tippedable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694349062279:android:1a137b4e6a2ac4fb",
+        "android_client_info": {
+          "package_name": "com.example.fcauserano.digitalnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694349062279-i0e58562equu6njnsjt0bvo57t8g108g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYuBuaS1-7gPj-ceFY6pDxLzn_QciufhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

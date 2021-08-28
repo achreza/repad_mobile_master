@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gamemenu"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/walpg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:background="@color/bluestartcolor"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:id="@+id/btndrum"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/drum"
+                            android:padding="8dp"
+                            android:scaleType="centerInside" />
+
+                        <LinearLayout
+                            android:id="@+id/drum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btndrum"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/black_color"
+                            android:padding="1dp"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/drum"
+                            android:layout_centerHorizontal="true"
+                            android:text="Drum"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:background="@color/redstartcolor"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:id="@+id/btnguitar"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/guitar"
+                            android:padding="8dp"
+                            android:scaleType="centerInside" />
+
+                        <LinearLayout
+                            android:id="@+id/guitar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btnguitar"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/black_color"
+                            android:padding="1dp"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/guitar"
+                            android:layout_centerHorizontal="true"
+                            android:text="Guitar"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:background="@color/materialyellow"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:id="@+id/btnelectric"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/electricguitar"
+                            android:padding="8dp"
+                            android:scaleType="centerInside" />
+
+                        <LinearLayout
+                            android:id="@+id/electric"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btnelectric"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/black_color"
+                            android:padding="1dp"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/electric"
+                            android:layout_centerHorizontal="true"
+                            android:text="Electric Guitar"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:background="@color/purplestartcolor"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:id="@+id/btnflute"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/flute"
+                            android:padding="8dp"
+                            android:scaleType="centerInside" />
+
+                        <LinearLayout
+                            android:id="@+id/flute"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btnflute"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/black_color"
+                            android:padding="1dp"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/flute"
+                            android:layout_centerHorizontal="true"
+                            android:text="Flute"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:background="@drawable/gradienta"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:id="@+id/btn1"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/trans_white_rectangle"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            android:text="1"
+                            android:textSize="40dp"
+                            android:textStyle="italic" />
+
+                        <LinearLayout
+                            android:id="@+id/line1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btn1"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/black_color"
+                            android:padding="1dp"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/line1"
+                            android:layout_centerHorizontal="true"
+                            android:text="Repad Mix 1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:background="@drawable/gradientb"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/trans_white_rectangle"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            android:text="2"
+                            android:textSize="40dp"
+                            android:textStyle="italic" />
+
+                        <LinearLayout
+                            android:id="@+id/line2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/btn2"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/black_color"
+                            android:padding="1dp"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/line2"
+                            android:layout_centerHorizontal="true"
+                            android:text="Repad Mix 2"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
